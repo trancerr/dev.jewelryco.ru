@@ -1,0 +1,144 @@
+#filterpro_box1 { display: none /*table*/;width: 100%;
+}
+#filterpro_box { display: table;width: 1180px; min-height:200px;
+}
+#filterpro_box label{text-decoration: underline;font-size: 16px; overflow:visible}
+#filterpro_box a{color:#000;}
+#filterpro_box a.min_price_clear,#filterpro_box a.max_price_clear {text-decoration:none;font-size:14px;margin-left: -14px;}
+#filterpro_box .border-top,#filterpro_box .border-bottom { border: 1px solid #D1C099; padding:10px;
+margin-bottom: 20px; min-height: 150px
+}
+#filterpro_box .border-bottom{ float:left;width: 1220px;}
+#filterpro_box .box-content {
+    padding:0;
+	display: table;
+}
+#filterpro .option_box {
+    border-radius: 7px 7px 7px 7px;
+    float:left;
+    min-width: 165px;
+    padding: 10px 5px 0;
+    vertical-align: top;
+}
+#filterpro .option_box .option-block { display:inline;}
+#filterpro .option_box .option-block{}
+#filterpro .option_box .option-block2 {padding: 0 10px 10px 0;}
+#filterpro .option_box .manufacturers{
+	float: none;
+	display: table;
+}
+#filterpro .price_limit {
+    border: 0;
+    width: 100%;
+}
+#filterpro #slider-range {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#filterpro .ui-widget-header {
+    background: none repeat scroll 0 0 #d1c09d;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.ui-widget-content { border: none !important;background: none repeat scroll 0 0 #ddd !important;margin-top:20px !important;}
+.ui-slider-horizontal { height: 5px !important}
+.ui-slider .ui-slider-handle{ width: 6px !important}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{ border:none !important; border-radius: 0 !important}
+.ui-slider-horizontal .ui-slider-handle{top: -5px !important;margin-left: -.3em !important}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{ background:#AAA !important}
+#filterpro select {
+    width: 126px;
+}
+
+#filterpro .ui-state-hover, #filterpro .ui-state-focus, #filterpro .ui-state-active {
+    border: 1px solid #38B0E3;
+    background: none repeat scroll 0 0 #d9f2fc;
+}
+
+#filterpro .price_slider {
+    height: 68px;
+    padding: 0 50px 20px 0;
+}
+#filterpro input { font-size:16px}
+#filterpro .price_slider  input {
+    width: 70px;
+min-width: 70px;
+padding: 7px 15px;;
+	margin: 0px;
+}
+
+#filterpro .option_values {
+    padding-top: 5px;
+}
+
+#filterpro .option_name, #filterpro .attribute_group_name {
+    /*background: url("../image/filter-bullet-down.png") no-repeat scroll right center transparent;
+    border-bottom: 1px solid #DBDEE1;
+    cursor: pointer;*/
+    padding: 0 0 10px 0;
+	font-weight: 700;
+	font-size:16px;
+}
+#filterpro .attribute_group_name{
+    padding-left: 0;
+}
+
+#filterpro .hided {
+    background: url("../image/filter-bullet-up.png") no-repeat scroll right center transparent;
+    cursor: pointer;
+}
+
+#filterpro_box .clear_filter,#filterpro_box .button_filter, #filterpro_box .do_filter {
+    text-decoration: none;
+    float: left;
+	background: #d1c09d;
+	padding: 5px 20px;
+	font-size: 16px;
+	margin-right:16px;
+		margin-top:20px;
+}
+
+#filterpro .collapsible{
+/*    max-height: 120px;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+
+margin: 0px;
+padding-top: 0px;
+}
+
+#filterpro img {
+    cursor: pointer;
+    margin: 2px
+}
+
+#filterpro img.selected {
+    border: 2px solid;
+    margin: 0;
+}
+#column-left + #column-right + #content .product-grid > div.loadmask {
+    width: 100%;
+}
+
+#filterpro input {
+    margin: 4px 3px;
+    padding: 0;
+}
+#filterpro input:checked+label{ font-weight: bold; }
+#filterpro input:disabled+label{ text-decoration:none; cursor:default}
+
+#filter_categories input, #filterpro input.option_value, input.manufacturer_value, .option-block2 input, input.filtered{
+	display:none;
+}
+#filterpro table{
+     margin-bottom: 5px;
+}
+#filterpro table tr td {padding-bottom: 5px;}
+#filterpro .attribute-tooltip.selected, .attribute-group-tooltip.selected, .option-tooltip.selected {
+	border: 2px solid transparent !important;
+}
+
+#filterpro .box-filter span{
+    font-weight: normal;
+}
